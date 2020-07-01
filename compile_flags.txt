@@ -1,0 +1,11 @@
+-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include
+-D__INTELLISENSE__
+-nocudainc
+-nocudalib
+--cuda-host-only
+-IC:\source\tmp\vcpkg\packages\eastl_x64-windows-static\include
+-IC:\source\tmp\vcpkg\packages\eabase_x64-windows-static\include\Common
+-IC:\source\ComfyMath
+-fms-compatibility
+-fms-extensions
+-fdelayed-template-parsing

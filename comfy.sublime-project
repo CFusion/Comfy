@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns": [".git", ".vs", "vprof", "data", "*.tlog", "x64"],
+       		"file_exclude_patterns": ["*.vcxproj.user", "*.vcxproj.filters", "*.sln", "*.map", "*.log", "*.exp"]
+		}
+	],
+	"settings":
+	{
+		"LSP":
+		{
+			"clangd":
+			{
+				"enabled": false
+			}
+		}
+	}
+}

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform_utlity.hpp" />
+    <ClInclude Include="src/bsp.hpp" />
+    <ClInclude Include="src\platform.hpp" />
+    <ClInclude Include="src\bspdef.hpp" />
+    <ClInclude Include="src/comfy.cu">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shared.hpp" />
+    <ClInclude Include="src\cugar_matrix.hpp" />
+    <ClInclude Include="src\host.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src/comfy.cpp" />
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platform.cpp" />
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bsp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{c616c7bc-f602-4c4c-9388-09f6f8c681be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cuda">
+      <UniqueIdentifier>{06a78e5a-7350-469a-aad3-07e8d0087ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{551b0245-741b-4ab4-b78f-929d6268aa69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\comfy.cuh">
+      <Filter>cuda</Filter>
+    </None>
+    <None Include="src\cugar.hpp" />
+    <None Include="compile_shader.bat">
+      <Filter>util</Filter>
+    </None>
+    <None Include="disregarded.text">
+      <Filter>util</Filter>
+    </None>
+    <None Include="src\comfy_watertight.cu">
+      <Filter>cuda</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="eastl.natvis">
+      <Filter>util</Filter>
+    </Natvis>
+    <Natvis Include="imgui.natvis">
+      <Filter>util</Filter>
+    </Natvis>
+  </ItemGroup>
+</Project>
