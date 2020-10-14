@@ -5,6 +5,10 @@ Runs in 60fps 720p on an MX250, preprocesses traingles, and uses a box intersect
 ![comfy](https://cld.moe/f/Comfy_yavNdOvL17.png "hallway in a hl1 map")
 ![comfy](https://cld.moe/f/Comfy_Ysf61Zig2B.png "crossfire")
 
+src/comfy.cu contains a version of the renderer with support for accumilative results
+
+src/comfy_watertight.cu contains a version of the rendere using a watertight algorythm for triangle intersection which doesn't require preprocessed traingles.
+
 Required:
 - Cuda 12
 - Imgui
